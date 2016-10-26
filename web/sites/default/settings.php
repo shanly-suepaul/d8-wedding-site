@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'XnkA0NFi_Akxk2d0P-_IP8UY0j52bAT72basfvCk9nR3cIGyntCehfV1l7bd_IbPJ_RI2SVbMg';
 
 /**
  * Deployment identifier.
@@ -749,6 +749,18 @@ $settings['file_scan_ignore_directories'] = [
  *
  * Keep this code block at the end of this file to take full effect.
  */
-# if (file_exists(__DIR__ . '/settings.local.php')) {
-#   include __DIR__ . '/settings.local.php';
-# }
+if (file_exists(__DIR__ . '/settings.local.php')) {
+  include __DIR__ . '/settings.local.php';
+}
+$databases['default']['default'] = array (
+  'database' => 'weddingsite',
+  'username' => 'root',
+  'password' => 'root',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'wedding_site';
+$config_directories['sync'] = 'sites/default/files/config_WOTmV29S66cGAV3_iR0YXkEU4DIBXoJtxiRyKX_hpFr2aWZYQSPoZfu6_Hd6uXKMY0QFUm-m2w/sync';
