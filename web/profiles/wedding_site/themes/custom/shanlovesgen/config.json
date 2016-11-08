@@ -1,0 +1,35 @@
+{
+  "name": "Shan Loves Gen",
+  "description": "A theme based on stable.",
+  "browserSyncProxy" : "https://shanlovesgen.local",
+  "bowerDir": "./bower_components",
+  "css": {
+    "file" : "shanlovesgen.style.css",
+    "src": [
+      "scss/**/*.scss"
+    ],
+    "dest": "assets/css",
+    "includePaths": [
+      "./bower_components/compass-mixins/lib"
+    ]
+  },
+  "js": {
+    "file" : "shanlovesgen.script.js",
+    "src": [
+      "js/**/*.js"
+    ],
+    "dest": "assets/js"
+  },
+  "images": {
+    "src": [
+      "assets/images/**/*"
+    ],
+    "dest": "assets/images/"
+  },
+  "fonts": {
+    "src": [
+      "./bower_components/font-awesome/fonts/**.*"
+    ],
+    "dest": "./assets/fonts/"
+  }
+}
