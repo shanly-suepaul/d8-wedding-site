@@ -1,0 +1,13 @@
+base:
+  version: 1.x
+  css:
+    theme:
+      assets/css/page.css: {}
+      //fonts.googleapis.com/css?family=Cutive|Great+Vibe: { type: external }
+  dependencies:
+    - core/drupal
+    - core/drupal.ajax
+    - core/drupalSettings
+    - core/drupal.announce
+    - core/jquery
+    - core/jquery.once

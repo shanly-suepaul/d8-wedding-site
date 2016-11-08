@@ -1,0 +1,14 @@
+name: Shan Loves Gen
+description: The Wedding Theme
+core: 8.x
+version: '8.x-1.0'
+type: theme
+base theme: stable
+libraries:
+  - shanlovesgen/base
+
+regions:
+  header: 'Header'
+  menu: Menu
+  content: Content
+  footer: 'Footer'

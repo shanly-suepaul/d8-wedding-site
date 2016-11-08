@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.title-slide {
+  box-sizing: border-box;
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: #f7f0e8;
+  position: relative;
+  text-align: center; }
+  .title-slide::before, .title-slide::after {
+    position: absolute;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .title-slide::before {
+    top: 0;
+    right: 0;
+    background-image: url(../images/right-flower.png);
+    width: 24vw;
+    height: 24vw; }
+  .title-slide::after {
+    bottom: 0;
+    left: 0;
+    background-image: url(../images/left-flower.png);
+    width: 24vw;
+    height: 32vw; }
+  .title-slide h1 {
+    color: #78413f;
+    font-family: 'Cutive', serif;
+    font-size: 48px;
+    font-weight: lighter;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    word-spacing: 5px;
+    margin-bottom: 70px; }
+    .title-slide h1 > div {
+      display: inline; }
+    .title-slide h1 > span.amp {
+      color: #be6247; }
+  .title-slide .feature-image {
+    width: 40%;
+    margin: 0 auto;
+    position: relative; }
+    .title-slide .feature-image > div::before, .title-slide .feature-image > div::after {
+      display: block;
+      content: '';
+      width: 150px;
+      height: 150px;
+      background-image: url(../images/corner.png);
+      background-repeat: no-repeat;
+      position: absolute;
+      background-size: contain; }
+    .title-slide .feature-image > div::before {
+      left: -40px;
+      top: -35px; }
+    .title-slide .feature-image > div::after {
+      right: -40px;
+      bottom: -35px;
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+    .title-slide .feature-image > div img {
+      width: 100%;
+      height: 100%; }
+  .title-slide .wedding-information {
+    margin-top: 70px;
+    font-family: 'Great Vibes', serif;
+    color: #78413f;
+    font-size: 48px; }
+    .title-slide .wedding-information > div {
+      display: inline; }
+    .title-slide .wedding-information > span {
+      color: #be6247; }
+
+/*# sourceMappingURL=page.css.map */
